@@ -1,0 +1,2221 @@
+<pouvoirsPsy>
+	<pouvoir>
+		<nom>Affaiblissement (enfeeble)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Endurance 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>20 metres x psy rating</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attack, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker nominates a single target in range and line of
+				sight who opposes this power with a Toughness test.<br/> If the target
+				fails to resist the power, it is Stunned for one round.<br/> In addition,
+				as long as this power remains in effect, if the target rolls doubles
+				on any test it makes, it suffers a number of levels of Fatigue equal
+				to half the psyker’s psy rating (rounded down).<br/> A single target can
+				only be affected by one instance of the Enfeeble power at a time,
+				with other usages on the same target having no further effect.]]>
+			</en>
+			<fr><![CDATA[Le psyker désigne une cible qu'elle voit et à distance, qui doit faire un test opposé en utilisant sont endurance.<br/>
+				Si la cible rate le test pour résiste au pouvoir psy, elle est assomée pendant un round.<br/>
+				De plus, si le sort est maintenu sur la cible et que cette dernière fait un double sur n'importe quel jet, 
+				elle subira un nombre de niveaux de fatigue égale à la moitié du bonus de FM du psyker.<br/>
+				Une cible ne peut subir les effets de ce pouvoir qu'une fois par round.
+				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Endurance</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Endurance 30</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>3 metres x niveau psy de rayon</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[A number of allies in range equal to the psyker’s psy rating,
+				plus the psyker himself, recover wounds equal to half the psyker’s
+				psy rating, rounded up. They can also immediately overcome the
+				effects of Pinning. This power is incredibly taxing and requires at
+				least 12 hours of recovery before it may be used again.
+				]]>
+			</en>
+			<fr><![CDATA[Un nombre d'alliés à porté égale au niveau psy du psyker, plus le psyker lui même, 
+				guérissent d'un nombre de blessure égale à la moitié du niveau psy du psyker.<br/>
+				Ils peuvent aussi annuler l'effroi. <br/>
+				Ce pouvoir nécessite 12 heures avant de pouvoir être reutilisé.
+				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>hémorragie(haemorrhage)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test opposé de force mentale moyen -10</FocusPower> 
+		<Range>10 metres x niveau psy </Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Drawing on his mastery of the living body, the biomancer
+				accelerates his victim’s heart rate beyond the bounds of biological
+				possibility. Betrayed by his own body, the target’s blood boils over,
+				flooding his brain and bursting his over-taxed veins. Those nearby
+				have their own hearts caught in the unnatural rhythm, suffering
+				the same fate.
+				The psyker nominates a single target in range and line
+				of sight who opposes this power with a Toughness test. If the
+				target fails to resist the power, it suffers Energy damage equal to
+				the psyker’s psy rating, plus one additional damage per degree
+				of failure on its Toughness test; this damage ignores Toughness
+				bonus and Armour. If this damage successfully kills the target, the
+				psyker may immediately recast this psychic power as a Free Action
+				on any legal target within 5 metres of the original target.]]>
+			</en>
+			<fr><![CDATA[Grâce à ce sort, le psyker peut accélerer le rythme cardiaque de la victime au dela de la limite biologique.<br/>
+					Le psyker choisit une cible à portée et ayant une ligne de vue dégagée, pour faire un test d'endurance.<br/>
+					Si la cible rate, elle subit un nombre de blessure égale au niveau psy plus un par degrée d'echec. Ces dégats ne peuvent être réduit par l'armure ou l'endurance<br/>
+					Si les dégats entraine le décés de la cible, le psyker peut immédiatement relancer le pouvoir en tant qu'action gratuite sur une nouvel cible dans un rayon de 5 métres de la dernière cible.
+				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Revigorer(invigourate)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Endurance 30</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>1 metre</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker draws upon the energies of the Warp to galvanise the
+				flesh, a possibly hazardous endeavour but one that can be essential
+				to continue the warband’s efforts. Newly empowered, the Acolytes
+				can continue afresh.
+				The psyker can remove a number of levels of Fatigue from
+				himself and allies within range. He can chose how many levels to
+				reduce per character, but the sum of all levels removed from all
+				characters cannot exceed his psy rating. This power is very taxing
+				and requires at least 12 hours of recovery before it can be used again.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker puise dans les énergie du warp pour galvaniser la chair. <br/> 
+				Il peut enlever un nombre de niveau de fatigue repartit entre ses alliés à portée et lui même, égale à son niveau psy.
+				Ce pouvoir est trés épuisant et ne peut être lancé que 12 heures aprés le précedent.
+ 				]]>
+			</fr>			
+		</desc>
+	</pouvoir>	
+	<pouvoir>
+		<nom>Corps d'acier(iron arm)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Force 35, Endurance 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale difficile -20</FocusPower> 
+		<Range>1 metre</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker’s flesh transforms, hardening into a slick, living metal,
+				weighing him down but also rendering him incredibly resistant.
+				His new form allows him to shrug off small arms fire and crush
+				his enemies with his bare hands.
+				While this power is in effect, the psyker gains the Unnatural
+				Toughness and Unnatural Strength traits with ratings equal to half
+				his psy rating, rounded up. However, his flesh’s sturdier form
+				weighs the psyker down, causing him to suffer a –10 penalty to his
+				Agility characteristic while the power is in effect.
+				]]>
+			</en>
+			<fr><![CDATA[ La chair du psyker se transforme en une nouvelle peau dur et lisse comme du metal vivant, allourdisant le PJ mais le rendant aussi beaucoup plus résistant.<br/>
+				Tant que ce sort est maintenu, le psyker gagne les traits force surnaturelle et endurance surnaturelle X, ou X est égale à la moitié du niveau psy du PJ.<br/>
+				En revanche, le poid du PJ est tel qu'il souffre d'un malus de -10 à ses jet d'agilité.
+ 				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Drain de vie(life leeCh)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Endurance 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale  opposé moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker latches on to his target’s life force and tears it from
+				the hapless victim’s body. The psyker absorbs this stolen essence,
+				using it to reinvigourate and bolster his own flesh.
+				The psyker nominates a single target in range and line of
+				sight who opposes this power with a Toughness test. If the target
+				fails to resist the power, he suffers 1d10 + psy rating Toughness
+				damage, and the psyker gains Unnatural Toughness (1) trait,
+				with its value increased by 1 for every full 5 points of Toughness
+				damage the power inflicts. This Unnatural Toughness trait remains
+				for as long as the power’s effect persists.
+				]]>
+			</en>
+			<fr><![CDATA[ Le psyker se concentre sur la force vitale de sa cible et l'extrait du corps de cette dernière.<br/>
+				Le psyker absorbe cette essence et l'utilise pour se régenerer et améliorer sa propre chair.<br/>
+				Le psyker nomme une cible à portée et ayant une ligne de vue dégagée, la victime doit faire un test d'endurance pour s'oppposer au pouvoir.<br/>
+				Si la cible rate, elle subit 1D10 + niveau psy de degat d'endurance, et le psyker gagne Endurance surnaturel(1). la valeur entr eparenthèse augmente de 1 par tranche de 5 dégats..
+				Ce trait persiste tant que le sort est maintenu.
+ 				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>remodelage charnel(shaPe flesh)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Perception 35, Endurance 30</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale facile +10</FocusPower> 
+		<Range>1 metres</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Powerful biomancers are able to bend the living body to their will
+					with great finesse. At the heights of ability, a psyker can mould
+					flesh with an expertise any sculptor would envy.
+					The psyker chooses himself or an organic target that he
+					can physically touch. The target’s physical appearance changes to a
+					new form of the psyker’s choosing for the duration of the power.
+					The amount and precision of the alterations depend on the final
+					psy rating used. Following are some broad guidelines, but GMs
+					can further alter the range of the power as needed.
+					• PR 1–3: The psyker can alter subtle flesh shapes, tones, and
+					colours to distort the appearance of the target. He does not
+					have direct control over what the end result looks like.
+					• PR 4–6: The psyker can alter flesh, hair, eyes, and any other
+					physical features. He can choose how the features will be
+					altered, but does not have the precision to mimic others.
+					• PR 7–9: The psyker can change any physical feature of the
+					target to resemble another individual. However, the psyker
+					must have a pic record of the individual, or have seen him
+					before.
+					• PR 10+: The psyker can shape his target to exactly mimic
+					another individual. Additionally, he can use the power to
+					morph the target into a form that no longer appears human.
+					All tests to identify the target’s true identity suffer a penalty
+					equal to 5 x PR for the duration of the power. The effects of the
+					power on a target other than the psyker remain in effect for the
+					duration of the power, regardless of how far away from the psyker
+					the target becomes.]]>
+			</en>
+			<fr><![CDATA[ Les biomanciens les plus puissant peuvent modeler la chair selon leur volonté avec une grande finesse.<br/>
+				Le psyker choisit de modifier la chair de lui même ou d'une cible qu'il peut toucher. La forme physique de la cible change en une nouvelle forme choisit par le psyker.<br/>
+				La quantité et la précision de l'alteration depend du niveau psy utilisé, exemple:<br/>
+				- Niveau psy 1->3: Le psyker peut altérer subtilement la la forme de la peau, la couleur ou les tons pour modifier l'apparence de la cible. <br/>Le psyker n'a pas de contôle sur le resultat final.<br/>
+				- Niveau psy 4->6: Le psyker peut altérer la chair, les cheveux, les yeux, et n'importe quel autre particularité physique.<br/> Il peut choisir comment ces particularités seront modifier mais il ne peut pas encore copier l'apparence d'une autre personne.
+				- Niveau psy 7->9: Le psyker peut modifier les particularité physique pour ressembler à un autre individu. <br/>	Cependant le psyker doit avoir vue cet individu ou avoir un enregistrement pix  de lui.<br/>	
+				- Niveau psy 10+: Le psyker peut copier parfaitement les traits d'une personne. <br/>	De plus le psyker peut utiliser ce pouvoir pour changer la forme de la cible dans une forme non humaine.<br/>	
+				Les tests pour deviner la vrai identité de la cible subissent un malus de 5*Niveau psy pour toute la durée du sort. <br/>	Les effets de ce sortsur une cible autre que le psyker dure jusqu'a la fin du sort quelque soit la distance avec le psyker.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Frappe (smite)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Force mentale 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Drawing on the electric field of his own body, the psyker projects
+				crackling bolts of bio-lightning, transforming his very life force
+				into destructive energy. Diviners often claim that one can tell
+				much about the state of a biomancer’s soul from the colour and
+				appearance of this power.
+				]]>
+			</en>
+			<fr><![CDATA[Vous canalisez votre force vitale par
+				les méridiens de votre corps, et vous vous
+				mettez à crépiter d’une énergie que vous
+				pouvez diriger contre une cible (et une
+				seule) située à portée.<br/>
+				La cible subit 1D10 + niveau psy de dégats avec une pénétration de 4.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Vitesse Warp(Warp speed)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>500 xp</valeur>
+		<prerequis>Niveau psy 5</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Tapping into the power of the Empyrean, the psyker suffuses his
+				body with energy, pushing himself beyond physical limits. While
+				under the effects of this power, the psyker moves with unbelievable
+				speed, ensuring that no heretic is swift enough to escape justice.
+				Effect: The psyker gains the Unnatural Weapon Skill, Unnatural
+				Ballistic Skill, and Unnatural Agility traits, all at values equal to his
+				psy rating.
+				]]>
+			</en>
+			<fr><![CDATA[Puisant dans le pouvoir de l'Empyrean, le psyker insufle à tout son corps l'énergie du warp.<br/>
+						Le psyker gagne les traits, cc surnaturel, ct surnaturel et agilité surnaturel d'un montant égale au niveau psy. ]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Sixième sens(foreboding)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Psyniscience au rang 1</prerequis> 
+		<Action>Réaction</Action> 
+		<FocusPower>Test de perception moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker gains an unnatural sixth sense. With this inexplicable
+				insight, he knows how and where his enemies will attack, dodging
+				blows and lasblasts with contemptuous and frightening ease.
+				Effect: In any situation where the psyker would be called upon to
+				make an Evasion test, he may instead attempt to use this power. If
+				the power is successful, the psyker avoids the attack exactly as if he
+				has passed an Evasion test with the number of degrees of success
+				he scored on the Focus Power test.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker gagne un sixième sens surnaturel lui permettant de savoir ou l'énnemi va attaque et lui permet d'éviter aussi bien les ocups de sabre que les bolts.<br/>
+				Dans n'importe quel situation ou le PJ doit faire un test d'esquive , il peut utiliser ce pouvoir à la place. <br/>Si le pouvoir reussit il évite l'attaque avec un nombre de degrés de reussite égale à celui de son test de concentration.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Prémonition(foreWarning)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Perception 50</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale  opposé moyen -10</FocusPower> 
+		<Range>3 metres * niveau psy de rayon</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Foreseeing his foes’ intentions, the psyker taps into the Warp and,
+				like dropping a small pebble into a pool, sends ripples to slightly
+				shift the course of events. Without moving a muscle, the psyker
+				saves his ally from certain injury and leaves his enemy baffled.
+				Effect: For the duration of this power, a number of allies within
+				range equal to the psyker’s psy rating, plus the psyker himself, gain
+				a bonus to all Evasion tests equal to twice the psyker’s psy rating.
+				Allies affected by this power lose its benefits as soon as they move
+				out of range.]]>
+			</en>
+			<fr><![CDATA[Le psyker lit dans les inntentions de ses ennemies et influence le cours de l'avenir par l'impulsion d'energie warp.<br/>
+				Durant la durée de ce sort un nombre d'alliés dans la zone du sort égale au niveau psy, plus le psyker, gagnent un bonus à leurs jet d'esquive égale à 2 fois le niveau psy du psyker. ]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Malchance(misfortune)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Force mentale 45</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale  opposé moyen -10</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Twisting fate, the psyker focuses his inner eye to ensure that his
+				foe suffers every possible calamity that ill-fortune could provide.
+				From embarrassing mishaps to life-and-death struggles, chance
+				itself betrays the target at every turn.
+				Effect: The psyker nominates a single target in range and line of
+				sight who opposes this power with a Willpower test. If the target
+				fails to resist the power, misfortune follows it wherever it goes. For
+				the duration of this power, the target’s Armour points are reduced
+				in all locations by half the psyker’s psy rating, rounded up. The
+				target’s weapons also jam on any attack in which they fail to hit
+				their target.]]>
+			</en>
+			<fr><![CDATA[Manipulant le destin, le psyker se concentre pour s'assurer que son ennemi subissent les pire malchance possible.<br/>
+			Le psyker choisit une cible à portée et ayant une ligne de vue directe qui fera un test opposé de force mentale opposé.<br/>
+			Si la cible rate le test, la malchance le suivra n'importe ou il ira. <br/>
+			Les points d'armure de la cible sont reduit de la moitié du niveau psy du psyker et son arme s'enraie à tir manqué.
+			De plus d'autre effet son à prevoir selon l'humeur du MJ.]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Timing parfait(PerfeCt timing)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Perception 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de psyniscience moyen -10</FocusPower> 
+		<Range>3 metres * niveau psy de rayon</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[So accurate are the diviner’s premonitions, that he can predict the
+			exact moment his foe will expose himself as a target. Further, the
+			psyker can forge a link with his allies, momentarily intertwining
+			their fortunes, so that they might fire in perfect unison, already
+			squeezing their weapons’ triggers before the foe is aware.
+			Effect: For the duration of this power, the psyker and a number
+			of allies equal to his psy rating within range, ignore the effects of
+			cover when firing on a target. If their attacks would strike a Hit
+			Location on the enemy that would benefit from cover, that benefit
+			is ignored. Allies affected by this power lose its benefits as soon as
+			they move out of range.
+			]]>
+			</en>
+			<fr><![CDATA[Les premonitions du psyker sont tellement clair, q'uil arrive à prevoir quand son ennemi va se retrouver à decouvert.
+			Le psyker plus un nombre d'alliés égale à son niveau psy dans la zone du sorts, ignorent les effet du couvert lorsqu'il tir sur une cible.
+			Si un allié sort de la zone du sort, il perd ce bonus.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Prémonition(PreCognition)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Perception 45, Force mentale 45</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de psyniscience difficile -20</FocusPower> 
+		<Range>5 metres * niveau psy de rayon</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[In one of the most viscerally intense applications of the Divination
+				discipline, the psyker witnesses solid and perfectly lifelike visions
+				of his own future. Peering into moments yet to come, he can use
+				this information to ensure or avoid future fates.
+				Effect: The psyker gains a number of re-rolls equal to his psy
+				rating that last until the beginning of the his next turn. For the
+				duration of that round, whenever the psyker or an ally in range
+				makes a test or damage roll, the psyker may spend one of the rerolls
+				to allow that ally to re-roll all dice involved in the roll. If the
+				psyker is killed or rendered Unconscious before the beginning of
+				his next turn, all remaining re-rolls are lost.
+				]]>
+			</en>
+			<fr><![CDATA[Grâce à sa grande maîtrise de la divination, le psyker est temoin de certaines vision de son futur proche pouvant ainsi éviter certaine situation.<br/>
+			Le psyker dispose d'un nombre de relance égale à son niveau psy jusqu'au debut de son prochain tour.<br/>
+			Pour toute la durée du round, lorsque le psyker ou un de ses alliés  à portée fait un test ou un jet de dégat, le psyker peut dépenser une de ses relance pour permettre de relance le jet.<br/>
+			Si le psyker tombe inconscient ou se fait tuer, toutes les relance sont perdues.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Préscience(Prescience)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>psyniscience rang 1</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de psyniscience facile +0</FocusPower> 
+		<Range>3 metres * niveau psy de rayon</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker sees brief, fuzzy flashes into his immediate future,
+			which he can use to guide the warband’s aim against their enemies.
+			Though the glimpses are short, such foretelling can mean the
+			difference between life and death when in combat.
+			Effect: For the duration of this power, the psyker and a number
+			of allies equal to his psy rating within range, gain a bonus to their
+			Weapon Skill and Ballistic Skill tests equal to twice the psyker’s psy
+			rating. Allies affected by this power lose its benefit as soon as they
+			move out of range.]]>
+			</en>
+			<fr><![CDATA[Le psyker percoit de bref moment de son futur immédiat qu'il peut utiliser pour guider son groupe contre ses ennemis.<br/>
+			Bien que le sflash soient bref, il permettent d'éviter des catastrophes.<br/>
+			Pendant la durée de ce pouvoir, le psyker et un nombre d'alliés égale à son niveau psy étant à portée, gagne un bonus à leurs CC et CT égale au double du niveu psy.<br/>
+			Les alliés quittant la zone d'effet perdent ce bonus.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Vision (sCrier's gaZe)</nom> 
+		<discipline>Divination</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Endurance 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale  opposé moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The most accomplished diviners are not only able to see into
+				the future, but also the present. Unbound by the limits of mere
+				physical vision, his mind peers far and wide, with little able to hide
+				from his sight.
+				Effect: To begin the ritual, the psyker must spend at least thirty
+				minutes using assorted psychic foci to concentrate his vision—
+				drawing Tarot cards, casting runes, gazing deep into fire, or other
+				methods as varied as the stars of the Imperium. At the end of this
+				time, he makes his Focus Power test to project his vision over the
+				area, with the GM revealing information based on the degrees of
+				success, as described on Table 6–4: Scrier’s Gaze Results.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker maitrisant la divination est aussi capable de voir le present. Il n'est plus limité par sa visions physique, son esprit peut voyager loin et peut de chose peut se soustrair à son regard.<br/>
+				Pour commencer le rituel, le psyker doit passer 30 minutes à se concentrer en utilisant le tarot de l'empereur ou invoquer des runes ou bien observer le feu... <br/>
+				A la fin de ce temps, il fait son test de concentration de pouvoir pour projeter sa vision en dehors de sa zone physique. Le Mj revelera des informations en fonction des degrés de reussite (voir table suivante):<br/>
+				- 1 degré: Le psyker arrive à suivre une seule action que son ennemi est en train de faire. Cela peut être une embuscade, cacher un livre hérétique ou réaliser un sacrifice de sang.<br/>
+				- 2 degrés: La visions du psyker s'elargit pour percevoir une large zone, capable de voir l'activité d'un champ de bataille ou d'un niveau d'une cité ruche.Cependant, il n'est pas capable de se focaliser sur une seul personne.<br/>
+				- 3 degrés: Le psyker contrôle la perception de sa nouvelle vision. Il beneficie des derniers avantages, peut percevoir les details d'une seule personne et peut connaitre le nombre exacte d'ennemis.<br/>
+				- 4 degrés: Le psyker traverse les couche du temps, regardant une zone et les chemins possible du futur. Il est conscient des derniers effets et peut connaitre les details du plan de l'ennemi.]]> 
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Perception Warp(WarP PerCePtion)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Force mentale 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de psyniscience moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker opens his senses to the Warp, allowing unnatural
+				tendrils of energy to augment his own perceptions. His flesh no
+				longer limited, he casts his gaze wider and hungrily scents prey
+				from farther afield.
+				Effect: The psyker gains the Unnatural Senses (X) trait, where the
+				X value is equal to the psy rating multiplied by 10.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker ouvre ses sens au warp , permettant d'obtenir des sens surnatural.<br/>
+			Le psyker gagne le trait sens surnaturel (X) ou X est égale à son niveau psy fois 10.]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>(Winding fate)</nom> 
+		<discipline>Biomancy</discipline> 
+		<valeur>500 xp</valeur>
+		<prerequis>Perception 50</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de psyniscience moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[By touching a character or item, the psyker sees visions into that
+			subject’s future and past. Though ghostly and laced with tendrils
+			of Warp-smoke, these images reveal not only what was, but what
+			is yet to be.
+			Effect: The vision lasts for a number of seconds equal to the
+			twice the psy rating, and can be from the subject’s future or past a
+			number of days equal to the psy rating. The higher the psy rating,
+			the more the psyker can control what his flashes focus on (at the
+			GM’s discretion).
+			]]>
+			</en>
+			<fr><![CDATA[En touchant une personne ou un objet, le psyker obtient des visions du futur et du passé lié au sujet.<br/>
+			Les visions sont phantomatique et entouré de fumér issue du warp, ces images ne révèle pas seulement ce qui fut mais ce qui sera.<br/>
+			Les visions durent un nombre de secondes égale au double du niveau psy, 
+			et peut être issue du futur ou du passé du sujet d'un nombre de jours égale au niveau psy. 
+			<br/>Plus élevé est le niveau psy, plus le psyker peut controler ces flashs.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Cauterisation(Cauterise)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Force mentale 45</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale trés facile +20</FocusPower> 
+		<Range>1 mètres</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[With careful application of his powers, the psyker applies intense
+				heat to a wound on his own flesh or to the flesh of an ally,
+				quenching the flow of blood. The effect is quite
+				painful, but certainly preferable to bleeding
+				to death. The use of this power generates a
+				focused and intense heat that rivals advanced
+				medicae equipment, and certainly far
+				exceeds the effects of ordinary battlefield
+				cauterisations.
+				The psyker chooses himself or another
+				character he can physically touch. If the target is
+				suffering from Blood Loss, successfully using the power removes
+				that condition.
+
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker choisit un allié qu'il peut toucher ou lui même. Si la cible souffre d'une hémorragie, l'utilisation de ce pouvoir la fait disparaitre.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Souffle de feu(flame breath)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Niveau psy 3</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale  opposé normal +0</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque</SousType>
+		<desc>
+			<en><![CDATA[Using his body as a conduit for his Warp-drawn power, the psyker
+				expels a torrent of flame from his mouth and eyes. Even his
+				allies can find the sight terrifying as his foes are burned with his
+				unnatural exhalations.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker concentre toute l'énergie du warp dans ses yeux et sa bouche, crachant litteralement un torrent de flammes.<br/>
+					Caractériqtique de l'attaque: <br/>
+					-dégat 1D10+2+(2*niveau psy)<br/>
+					-Pénétration 0<br/>
+					-Attribut: Flamme<br/>
+					]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Forme enflamée(fiery form)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale  moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Unnatural flame engulfs the psyker’s entire body. He is cloaked
+				in sheets of fire that somehow do not harm him, but burns any
+				nearby with horrifying results.
+				Effect: While this power is in effect, all of the psyker’s melee
+				attacks deal additional Energy damage equal to his psy rating and
+				gain the Flame quality. In addition, at the end of each of the
+				psyker’s turns in which he sustains this power, he emits a Psychic
+				Blast centred on his location. Each character within the area of the
+				blast, with the exception of the psyker himself, are struck.
+				]]>
+			</en>
+			<fr><![CDATA[Les flammes englôbe le psyker dans une tornade de feu qui ne le blesse pas m ais qui brule tous ce qui peut entrer en contact avec ses flammes.<br/>
+				Tant que ce pouvoir est actif, toutes les attaques de corps à corps du psyker font des dégâts supplémentaire d'éneergie égale 
+				a son niveau psy et ayant l'attibut flamme.<br/>
+				De plus à la fin de chaque tour ou le sort a été maintenu, une explosion de flamme centrée sur le psyker est generée.<br/>
+				Le psyker n'est pas affecté par cette explosion mais les autres personnes dans la zone d'effet oui.
+				Dégât de l'explosion et des flammes: 1D10+Niveau psy avec une pénetration de 0 avec l'attribut flamme et Blast(niveau psy)]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Bouclier de feu(fire shield)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Agilité 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[With but a gesture, the psyker summons a wall of shimmering,
+				unnatural fire in the air before him. Any who would strike the
+				pyromancer must contend with fiery retribution, as flames leap
+				outward, travelling in reverse down the path of the bullet or lasbolt
+				to strike the psyker’s assailant.
+				Effect: While this power is in effect, any character in range and
+				line of sight that successfully strikes the psyker with an attack
+				immediately suffers Energy damage equal to the psyker’s psy
+				rating. The degrees of success on this attack are equal to those
+				from the Focus Power test, and the inflicted damage is not reduced
+				by Armour or Toughness bonus.
+				psyChiC blasT rng (sElf) dMg 1d10+pr (E) pen 0
+
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker érige devant lui un bouclier de flammes surnaturel. <br/>N'importe quel personne qui tente d'attaquer le PJ subit une contre attaque de flamme
+				que ce soit au corps à corps ou par des tirs d'arme.<br/>
+				Tant que ce pouvoir est actif, n'importe quel personnage, attaquant le psyker, se trouvant à porté et que le psyker peut voir subit une attaque du bouclier.<br/>
+				Le nombre de degrés de reussite de l'attaque est égale à celui du test de concentration et le nombre de dégats est égale au niveau psy du psyker.<br/> 
+				Ces dégats ne peuvent être reduit par l'armure ou l'endurance et possède l'attribut Flamme.				
+				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Inferno(Inferno)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>500 xp</valeur>
+		<prerequis>Niveau psy 5</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Focussing his power, the psyker ignites the very atmosphere
+				surrounding his target, placing his foe in the midst of a sudden
+				and violent conflagration.
+				]]>
+			</en>
+			<fr><![CDATA[En concentrant son pouvoir, le psyker enflamme l'atmosphere entourant sa cible.<br/>Placant son ennemi au milieu d'une violente
+			deflagration de feu.<br/>
+			Dégat de l'explosion: 2D10+(3* niveau psy) pen 0 <br/>
+			Attributs: Blast(niveau psy) et flamme
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>(maniPulate flame)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Force mentale 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale  tres facile +20</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attaque,</SousType>
+		<desc>
+			<en><![CDATA[Reaching out with his mind, the psyker grasps nearby flame and
+				moulds it to his desire. The flames dance to his tune, moving to
+				untouched areas or falling quiet at their master’s command.
+				Effect: The psyker chooses a patch of fire in range and line of sight
+				with a radius no greater than PR metres. Each round, he can either
+				extinguish or control the fire. If he extinguishes the fire, this power
+				ends and the fire goes out. If he controls the fire, he can move it
+				up to a number of metres equal to his psy rating per round along
+				a flammable surface.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker peut saisir et modeler un feu ou une flamme selon son désir. Les flammes peuvent se deplacer dans l'air ou s'eteindre selon le bon vouloir du Psyker<br/>.
+				Le Psyker doit choisir des flammes à portée (rayon de niveau psy mètres) et dans sa ligne de vue.<br/>
+				Chaque round, il peut soit éteindre soit contrôler les flammes. S'il choisit d'éteindre les flammes le sort s'arrête immédiatement.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Rayon de fusion(molten beam)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque</SousType>
+		<desc>
+			<en><![CDATA[The pyrokine projects from his hands a blindingly bright beam of
+			sun-hot energy. At the touch of this blazing ray, plasteel liquefies
+			and flesh bursts into ash.
+			]]>
+			</en>
+			<fr><![CDATA[Le spsyker génère de ses mains un puissant rayon d'énérgie solaire, faisant fondre aussi bien le plastacier ques la chair.<br/> 
+			Dégats: 1D10+5+(3*niveau psy) <br/>
+			Pénétration: 2 * niveau psy<br/>
+			Attribut: Fusion]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Combustion spontanée(sPontaneous Combustion)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Force mentale 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale facile +10</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, </SousType>
+		<desc>
+			<en><![CDATA[In one of the purest displays of his power, the psyker ignites his
+				enemies, burning them alive. The target’s blood boils and flesh
+				smoulders, and as the psyker’s rage reaches its pinnacle, the target’s
+				body begins to explode in blasts of ash and flame.
+				]]>
+			</en>
+			<fr><![CDATA[Dans une pur demonstration de ses pouvoirs, le psyker  enflammes ses ennemies, les faisant bruler vivant.<br/>
+			Le sang de la cible bout dans ses veines et sa chair se consume, et lorsque le sort du psyker atteint son apogée, le corps de la cible explose dans un nuage de cendres et de flammes.
+			Dégats: 1D10 + 2 +(2 x niveau psy)<br/>
+			pénétration: 0<br/>
+			Attribut: Flamme
+			]]>			
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Nova de feu(sunburst)</nom> 
+		<discipline>Pyromancy</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale  normal +0</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attaque</SousType>
+		<desc>
+			<en><![CDATA[The psyker releases a nova of fiery energy from his body. As the
+				psyker focuses his power, a blazing aura coalesces around him,
+				growing brighter and hotter before rapidly expanding outward in
+				all directions. As the calm at the eye of the firestorm, the psyker
+				is untouched, while all around him is reduced to ash and cinder.]]>
+			</en>
+			<fr><![CDATA[ Le psyker libére une nova d'énergie enflammées de son corps.<br/>
+			Tant que le psyker concentre son énergie, une aura incandescente émmane de lui dans un rayon égale à son pouvoir psy mètres.<br/>
+			Dégats: 1D10 + 2 +(2 x niveau psy)<br/>
+			pénétration: 0<br/>
+			Attribut: Flamme, Blast(niveau psy)]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Attaque Télékinésique(Assail)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Force mentale 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale facile +10</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[
+			The psyker reaches out with his mind to pluck up whatever objects
+			are available and hurl them at his target. If there is nothing suitable
+			nearby, the psyker can direct his mental energies directly at his foe,
+			pounding him with bolts of invisible force.
+
+			If the psyker scores at least three degrees of success on
+			the Focus Power test for this attack, the target is also thrown 1d5
+			metres away and knocked Prone. Certain especially large targets
+			such as battle tanks, Greater Daemons, and Titans are immune to
+			this effect at the Game Master’s discretion.
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker puise dans ses pouvoirs pour saisir n'importe quel objet à porté et l'envoyer violament sur sa cible.<br/>
+			S'il n'y a rien à envoyer, lepsyker peut lancer directement ses energies sur son ennemi.
+			Si le psyker reussit avec au moins 3 degrés de reussite, la cible subit un recul de 1D5 mètres et se retrouve au sol.
+			Certaine cible comme les tanks, titant, demon majeur sont immunisés contre ce recul.
+			Dégât (I): 1D10 + niveau psy<br/>
+			Pénétration: 2]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Ecrasement(Crush)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Force mentale 45</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale opposé normal -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Rather than using his abilities to turn inanimate objects into
+				weapons, the telekine focuses directly on his enemy to squeeze
+				him in an invisible fist of power. Unless the target can repel the
+				psychokinetic assault, he is bludgeoned horridly. Even should he
+				survive, the overwhelming psychic force nonetheless pins him in
+				place under a tremendous weight.
+				Effect: The psyker nominates a single target in range and line of
+				sight who opposes this power with a Toughness test. If the target
+				fails to resist the power, it suffers the attack below.
+				]]>
+			</en>
+			<fr><![CDATA[Plutôt que d'utiliser ses pouvoirs pour se servir d'objet comme des armes, le pkykers focalise directement 
+				ses pouvoirs sur son ennemi, pour l'ecraser avec un poing invisible.<br/>
+				Le psyker désigne une cible à porté et ayant une ligne de vue dégagé vers elle, 
+				qui doit faire un test opposé d'endurance pour résister au sort.<br/>
+				Si la cible rate le test, elle subit 1D10 + niveau psy de dégâts d'impact 
+				avec 2 de pénétration.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Porte de l'infini(gate of infinity)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Niveau psy 5</prerequis> 
+		<Action>Action Etendu (3)</Action> 
+		<FocusPower>Test de force mentale difficile -20</FocusPower> 
+		<Range>1 Km * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Though it offers no physical attack,
+				this power is nonetheless one of the most dangerous uses of the
+				Telekinesis discipline. With it, the psyker tears open a hole in space
+				so that he might pass through the Warp. Others might refuse to pass
+				through the unreal pathway,	however, fearful of any
+				proximity to the Immaterium and its terrible denizens.
+				Effect: The psyker chooses a point anywhere within 5 metres times
+				his psy rating, and opens a gate to the Immaterium at that point.
+				He then chooses a point within range of the power, and opens an
+				exit to the gate at that location. The psyker must be aware of the
+				location in which he is opening the exit to the gate, either having
+				visited it before, seen it from afar, or simply studied it on a map.
+				The gate lasts for a number of rounds equal to the psyker’s
+				psy rating, and has a radius in metres equal to the psyker’s psy
+				rating as well. For the duration of the power, the two sides of the
+				gate are linked, and any person or objects may pass between them
+				freely provided they can fit through the gate.
+				This power is incredibly taxing and requires at least 12 hours
+				of recovery before it may be used again.
+				]]>
+			</en>
+			<fr><![CDATA[Bien qu'il ne s'agisse pas d'un sort d'attaque, ce sort est le plus dangereux de la discipline télékinésie.<br/>
+				Avec lui, le psyker déchire le voile du warp pour y créer un trou pour y passer au travers.
+				Le psyker choisit un point n'importe ou dans la limite de 5 mètres fois son niveau psy et ouvre une porte à cet endroit.<br/>
+				Ensuite il choisit un point située à portée (1km*niveau psy) et ouvre la deuxieme porte à cet endroit.<br/>
+				Le psyker doit connaitre la localisation de la porte de sortie, soit en l'ayant vue ou en ayant les coordonnées ou en regardant une carte.<br/>
+				la porte reste ouverte un nombre de round égale au niveau psy du psyker et a un rayon en métres du même niveau psy.<br/>
+				Pour la durée du sort, les 2 portes sont liées et une personne ou un objet passant dedans se retrouvera de l'autre côté.<br/>
+				Ce pouvoir nécessite beaucoup de pouvoir et ne peut être utilisé que toute les 12 heures.
+				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Abjuration Mechanicus(obJuration meChaniCum)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Intelligence 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[With this power, the psyker reaches into and disrupts the inner
+			workings of nearby machines, jamming gears, blowing fuses, and
+			severing power couplings. Those who rely on technology find
+			themselves bereft of their support and helpless.
+			The psyker chooses a point anywhere within range and
+			line of sight. This power creates a Haywire Field (see page 147)
+			centred at this point, with a radius in metres equal to the psyker’s
+			psy rating]]>
+			</en>
+			<fr><![CDATA[
+			CE pouvoir permet au psyker de perturber le fonctionnement de l'esprit de la machine 
+			de la cible, 
+			enrayant les armes, faisant sauter les fusible et entrainant des surtension, 
+			ce qui est une hérésie au yeaux du mechanicus. <br/>
+			Le psyker choisit un endroit à portée et ayant une ligne de vue dégagée.<br/>
+			Le pouvoir créer un champ détraquant (voir page 147 DH V2) centré sur 
+			l'endroit choisit avec un rayon égale, au niveau psy du psyker, métres.
+			
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Onde de choc(shoCkWave)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Force mentale 50</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker uses his unnatural control of the physical world to
+			amplify a sound to impossible levels. From clapping his hands
+			together, stamping on a hab floor, or even shouting, the psyker
+			creates a sound that transforms into a powerful shockwave, bursting
+			eardrums and knocking people off their feet.
+			Effect: Each character in the area of effect (other than the psyker)
+			suffers the damage below. He is also pushed directly away from the
+			psyker a number of metres equal to the psyker’s psy rating.
+			ShockWAve psyChiC blasT
+			rng (sElf) dMg 1d10+pr (X) pen 0
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker utilise son controle sur le monde physique pour amplifier un son à un niveau impossible normalement.<br/>
+			En claquant des main, tappant du pied, ou encore en criant, le psyker transforme le sound en redoutable onde de choc,
+			detruisant les tympans et projetant les personnes.<br/>
+			Chaque personne dans l'aire d'effet (sauf le psyker) subissent les effets suivant:<br/>
+			  - dégât: 1D10 + niveau psy<br/>
+			  - Pénétration: 0<br/>
+			  - Attribut Zone d'effet(niveau psy)<br/>
+			  - Effet kiss cool: Les personnes sont expulsés d'un nombre de mêtres égale au niveau psy du psyker.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Dôme télékinésique(telekine dome)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal 0</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker shields himself and nearby allies with a dome of mental
+				force, large enough to surround his group and protect them from
+				harm. The protective shield deflects bullets and lasblasts, sending
+				them ricocheting in all directions.
+				Effect: The psyker chooses a point in range and line of sight,
+				and creates a dome of invisible energy centred on that point with
+				a radius equal to half the psyker’s psy rating, rounded up. Each
+				ally (including the psyker, potentially) standing inside the dome
+				gains a number of Armour points equal to the psy rating to all Hit
+				Locations against any attack that originated outside of the dome’s
+				radius. However, characters may still physically pass through the
+				dome at no penalty.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker se protège ainsi que ses alliés grâce à un dôme de force mentale, assez large pour encercler son groupe et les
+			proteger.<br/>
+			Ce bouclier de protection dévie les balles et les tir d'energie, les envoyant ricocher dans toutes les directions.<br/>
+			Le psyker choisit un point, à portée et ayant une ligne de vue dégagée, créant un dôme d'énergie invisible sur ce point ayant un rayon égale à la moitié du niveau psy.
+			<br/>Tous les alliés à l'intérieure du dômen gagne un nombre depoint d'armure égale au niveau psy sur toutes les localisations contre les attaquent provenant de l'exterieure du dôme.<br/>
+			Les personnes ami ou ennemie qui traversent le dôme ne souffrent d'aucune pénalités.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Bouclier télékinésique(telekine shield)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Intelligence 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force trés facile +20</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Using the energy of the Warp, the psyker erects a wall of tangible
+				force that moves with him. The shimmering barrier stops bullets
+				and deflects blades, but as more and more kinetic energy is directed
+				at him, the psyker’s mental shield wears down.
+				Effect: For the duration of the power, all of the psyker’s Hit
+				Locations count as being protected by cover with an Armour
+				Value equal to half this power’s psy rating. This shield can be
+				damaged just like normal cover by damage that exceeds the shield’s
+				Armour Value (see page 229). If the shield is reduced to 0
+				Armour points, the power stops, and is no longer sustained.
+				]]>
+			</en>
+			<fr><![CDATA[Utilisant les énergies du warp, le psyker érige un mur de force tangible qui se déplace avec lui. <br/>
+			La barrière miroitante, arrête les balles et repoussent les tirs ennemis, mais plus elle subit de dégâts et plus elle peut céder.<br/>
+			Pour la durée du sort, toute les localisations d'armure du psyker sont considérées comme étant protégées par un couvert avec une valeur d'armure
+			égale à la moitié du niveau psy du sort. Ce bouclier peut être endommagé par des dégats qui dépasse la valeur d'armure du bouclier (p229 DH V2).
+			Si le bouclier est reduit à 0 point d'armure, le pouvoir cesse et n'est plus maintenu.]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>Contrôle télékinésique(telekinetiC Control)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Force mentale 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale trés facile +20</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The telekine calls on his powers to reach out farther than his flesh
+				can extend, distorting reality to grasp objects with eldritch hands.
+				With invisible fingers perhaps only betrayed with frosted rime or
+				whispered breezes, few can notice his subtle manipulations.
+				Effect: The psyker chooses an object in range and line of sight
+				with a weight no greater than 2 x PR kilograms. At the beginning
+				of each of his turns, he can move the object in any direction up to
+				a number of metres equal to twice his psy rating. If the object ever
+				leaves the range of the power, the power ends.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker choisit un objet à portée et qu'il peut voir, ne pesant pas plus que 2*niveau psy kilo.<br/>
+			Au debut de chaque tour, le psyker peut bouger l'objet dans n'importe quel direction d'un nombre
+			de mètres égale à deux fois son niveau psy. <br/>
+			Si l'objet quitte laportée du sort, le pouvoir s'arrète.]]>
+			</fr>			
+		</desc>
+	</pouvoir><pouvoir>
+		<nom>(vorteX of doom)</nom> 
+		<discipline>Télékinésie</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Niveau psy 5</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[In perhaps the ultimate display of his mastery of both the physical
+				world and the Warp, the psyker tears open a hole twixt the two.
+				Around the roiling vortex, the laws of physical space are undone
+				as the ravenous predations of Chaos devour all in the vicinity. This
+				power is extraordinarily dangerous, and not only to the psyker’s
+				enemies. The Vortex of Doom feeds on itself and can sustain its power 
+				without need of the psyker.
+				Effect: The psyker chooses a point in range and line of sight, and
+				creates a vortex of energy centred on that point that starts with a
+				radius of 2 metres. Each character who is touching the vortex at
+				the end of the psyker’s turn suffers damage as detailed below.
+				]]>
+			</en>
+			<fr><![CDATA[Dans la demonstration de sa maîtrise du monde physique et du warp, le psyker ou vre aasge entre les deux dimension et mixe leurs énergie.<br/>
+			Ce pouvoir est trés dangereux et pas seulement pour les ennemis du psyker car le vortex peut s'auto alimenter sans avoir besoin du psyker.<br/>
+			Le psyker choisit un point à portée qu'il voit et créer le vortex à cet endroit avec un rayon de 2 mètres.<br/>
+			Chaque personne qui touche le vortex subit les effets suivants:<br/>
+				- dégats: 2D10 + (2* niveau psy) déchirant<br/>
+				- pénétration: égale au rayon du vortex<br/>
+				- Attribut: Zone d'effet (2) au début<br/>
+			<br/><br/>
+			Le psyker ne peut pasa arreter ce pouvoir en un instant. <br/>
+			Chaque tour il doit effectuer un test de force mentale avec un  malus égale à -5*rayon du vortex.<br/>
+			S'il reussit le test il peut faire les actions suivantes:<br/>
+				- Augmenter le rayon du vortex d'un mètre<br/>
+				- Réduire le rayon du vortex d'un mètre<br/>
+				- Bouger le vortex dans une direction d'un nombre de mètre égale au niveau psy du psyker<br/>
+			<br/>Si le psyker rate son test ou s'il n'est plus capable de faire le test à cause d'autre circonstances, 
+			le rayon du vortex augmente de 1 mètre et bouge d'un nombre de mètre égale au niveau psy du psyker 
+			dans une direction aléatoire (voir diagramme de dispersion p230 DH V2).<br/>
+			Si le rayon du vortex depasse le niveau psy du psyker, ce dernier explose, arretant ainsi le pouvoir et detruisant le vortex.<br/>
+			Suite à l'explosion le psyker recoit un retour de force du vortex même s'il n'estpas dans sa zone d'effet.<br/>
+			Les personnes prises dans l'explosion, ainsi que le psyker subissent les effets suivants:<br/>
+			- dégats: 2D10 + (4* niveau psy) déchirant<br/>
+				- pénétration: égale au rayon du vortex<br/>
+				- Attribut: Zone d'effet (2) au début<br/>
+			
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Domination (dominate)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Force mentale 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé normal +0</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType> Concentration</SousType>
+		<desc>
+			<en><![CDATA[Demonstrating the superiority of his mutant mind, the telepath
+				subverts his foe’s will and forces him to act against his every
+				inclination. Few psychic abilities are so rightly feared.
+				Effect: The psyker nominates a number targets in range and line
+				of sight up to half his psy rating (rounded up) who oppose this
+				power with a Willpower test. Each target that fails to resist the
+				power must follow a simple command given by the psyker. Some
+				example orders include “Flee,” “Fall,” or “Attack your friend.” If
+				the command is a potentially suicidal act, each target receives a
+				+20 to its Willpower test to Oppose the power. In all cases, the
+				command must be achievable in a single round.
+				]]>
+			</en>
+			<fr><![CDATA[Démontrant la supériorité de son esprit de mutant, 
+			le télépathe submerge l'esprit de son ennemi et le force à agir
+			d'une autre manière.<br/>
+			Le psyker choisit un nombre de cible à portée et qu'i peut voir, 
+			égale à la moitié de son niveau psy, qui doivent opposer un 
+			test de force mentale pour resister au pouvoir.<br/>
+			Voici quelque example d'ordre: "fuit", "tombe", "attaque ton ami".<br/>
+			Si l'ordre est potentiellement suicidaire, la cible recoit un bonus de +20 à son test.<br/>
+			Dans tous les cas l'ordre doitpouvoir être réaliser durant un round.
+			]]>
+			
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Effacement de la mémoire(erasure)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Sociabilité 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé normal +0</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[With a surgeon’s skill, the psyker opens up his target’s mind
+				and slices away a memory, removing it forever. This power is
+				of immense utility to an Inquisitor’s work, particularly one who
+				wishes to operate discreetly, without the usual mess of an execution.
+				Effect: The psyker chooses a single foe in range and line of sight
+				who opposes this power with a Willpower test. If he fails, the
+				psyker removes a memory of a recent event from the target’s mind.
+				The psyker can only remove an amount of time from the target’s
+				memory up to 10 x PR minutes, and the event removed cannot
+				have occurred more than PR hours prior to the use of this power.
+				The enemy is left with a gap in his memory, with no recollection
+				of what occurred during that time.
+				]]>
+			</en>
+			<fr><![CDATA[Avec une précision chirurgical, le psyker ouvre l'esprit de sa cible
+			et supprime une partie de celle ci pour toujours. <br/>
+			Ce pouvoir est d'une grande utilité pour opérer discretement dans 
+			le cadre d'une opération d'infiltration par exemple.<br/>
+			Le psyker choisit une cible à portée qu'il peut voir qui doit faire un jet opposé de force mentale.
+			<br/>Si la cible échoue, le psyker peut lui enlever un souvenir recent.<br/>
+			Le psyker ne peut supprimer que des souvenirs de moins de 10* niveau psy minutes.<br/>
+			La cible se retrouve avec un vide à la place de son souvenir.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Hallucination(halluCination)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>sociabilité 40</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale opposé normal +0</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The human mind’s grasp on reality is fragile and easily manipulated
+				with sufficient power. With his own psychic senses, the telepath
+				touches the psyche of his target and severs its connection to
+				normal existence.
+				Effect: The psyker nominates a single target in range and line of
+				sight who opposes this power with a Willpower test. If the target
+				fails to resist the power, it must roll on Table 5–3: Hallucinogenic
+				Effects on page 146, and immediately apply the effects. The
+				effect rolled on the table lasts for a number of rounds equal to half
+				the psyker’s psy rating, rounded up.
+				]]>
+			</en>
+			<fr><![CDATA[La perception de la réalité de l'esprit humain est fragile et facilement
+			manipulable par un pouvoir suffisament puissant.<br/>
+			Le psyker designe une cible unique à portée qu'il peut voir, qui devra faire un test opposé de force mentale.<br/>
+			Si la cible échoue, elle doit faire un jet sur la table 5-3: hallucinogenic p146 DH V2.
+			La durée des effets de l'allucination durent un nombre de round égale à la moitié du niveau psy du psyker.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Invisibilité(invisibility)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Agilité 30, niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Clouding enemy minds, the psyker obscures his allies from their
+			foes’ senses. Though eyes and other senses detect them as normal,
+			their minds do not perceive them, save for a slight distortion in
+			their vision.
+			Effect: The psyker nominates a single target within range and line
+			of sight (this can be the psyker himself). For the duration of the
+			power, the target counts having the Stealth skill at Known (rank 1),
+			and gains a bonus to Stealth tests equal to +5 times the psyker’s psy
+			rating. Additionally, all ranged attacks made against the target suffer
+			a penalty equal to –5 times the psyker’s psy rating. If the target
+			moves beyond the power’s range, he loses this power’s benefits.
+			]]>
+			</en>
+			<fr><![CDATA[Obscurcissant l'esprit de ces ennemis, le pyker cache une personne aux sens de ses ennemis.<br/>
+			Le psyker choisit une cible à portée qu'il peut voir (ou lui même). <br/>
+			Pour la durée du sort, la cible devient invisible suivant la règle suivante:<br/>
+			- Si le sort est lancé avec un  niveau psy inférieur à 4, la cible n'est pas 
+			totalement invisible mais transparente.<br/>
+			-Si le sort est lancé avec un niveau psy de 4 ou supérieure, la cible est totalement invisible
+			- Dans les 2 cas, la cible gagne la compétence discretion et un bonus égale à 5*niveau psy<br/><br/>
+			La cible qui dépasse la portée du sort redevient visible et le sort est annulé.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Forteresse mentale(mental fortitude)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Foi d'adamantium</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>3 metres * niveau psy de rayon</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Drawing from the limitless potential of the Warp, the psyker
+				augments the mental abilities of his targets, providing defence
+				against the stresses of combat and the terrors of the galaxy.
+				Effect: For the duration of this power, a number of allies up to the
+				psyker’s psy rating within range count as having the Adamantium
+				Faith talent. Allies affected by this power lose its benefits as soon
+				as they move out of range.
+				]]>
+			</en>
+			<fr><![CDATA[Puisant dans le potentiel sans limite du warp, le psyker augmente
+				les capacités mentale de ses alliés., leur donnant une protection contre le stress des combats
+				et les terreurs de la galaxie.<br/>
+				Pour la durée du sort, un nombre d'allié à portée égale au niveau psy du psyker gagnent le talent: foi d'adamantium.
+				Si un allié sort de la zone, il perd ce bonus.<br/>
+				]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Hurlement psychique(PsyChiC shriek)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>niveau psy 3</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque</SousType>
+		<desc>
+			<en><![CDATA[Drawing a deep soul-breath, the psyker unleashes a rippling Warp
+				tide that sears the souls and blasts the minds of those in its path.
+				The violent psychic wave is enough to overwhelm and shut down
+				the minds of those it strikes, while those not slain outright are left
+				reeling and dazed.
+				]]>
+			</en>
+			<fr><![CDATA[Tirant une grande inspiration du warp, le psyker déchaine un
+			déluge d'ondulation warp qui déchire l'âme et devaste l'ésprit de ceux sur son chemin.<br/>
+			Ceux n'étant pas tué sur le coup se retrouvent étourdit.
+			Effet du sort:<br/>
+			- dégat: 1D10+2+(2* niveau psy) déchirant<br/>
+			- pénétration: 0<br/>
+			- Attribut: Concussive(1)
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Contrôle mental(PuPPet master)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Sociabilité 55</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale opposé moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Spécial </Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[In the ultimate expression of telepathic power, the psyker utterly
+				crushes his target’s will, locking him away in a dark corner of
+				his own mind and taking complete control of his body. After
+				recovering their wits, those subjected to this power are often struck
+				with bouts of insecurity, never certain again if their actions are
+				truly their own.
+				Effect: The psyker nominates a single target in range and line of
+				sight with total wounds no greater than 3 times the psyker’s psy
+				rating, who opposes this power with a Willpower test. If the target
+				fails to resist the power, it is controlled by the psyker like a puppet.
+				For the duration of the power, the psyker can divide his Actions
+				between himself and the target. The dominated target uses its own
+				Characteristics, but at –10 due to the crudity of the control. If at
+				any point the psyker would make the target perform a potentially
+				suicidal action, the target can attempt a Challenging (+0) Opposed
+				Willpower test to try to break free of the power. Additionally, the
+				power breaks as soon as the target moves out of range.
+				]]>
+			</en>
+			<fr><![CDATA[Dans la concrétisation ultime de ses pouvoirs télépahtique, le psyker
+				reduit à néant la volonté de sa cible, enfermant ce dernier dans un coin sombre
+				de son esprit et prenant le contrôle total de son corps.<br/>
+				Aprés avoir retrouvé leur esprit, les personnes sont frappé de période d'insécurité, 
+				n'étant jamais certain que leurs actions sont bien de leur volonté.<br/>
+				Le psyker choisit une cible à porté qu'il peut voir avec un nombre de point de vie ne
+				depassant pas 3*niveau psy, qui doit opposé un test de force mentale.<br/>
+				Si la cible rate son test, son corps devient la marionnette du psyker.<br/>
+				Pour la durée du sort le psyker peut diviser ses action entre la cible et lui même.<br/>
+				La cible utilise ses propres caracteristiques, mais avec un malus de -10 dû au control.<br/>
+				Si le psyker veut faire une action potentiellement suicidaire, la cible à le droit de faire un test opposé de 
+				force mentale, pour se libérer du pouvoir.<br/>
+				De plus, le pouvoir se termine si la cible n'est plus à porté du sort.]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Lien télépathique(telePathiC link)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Force mentale 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale opposé moyen -10</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[In this, the simplest yet purest expression of his powers, the
+				telepath establishes a mental connection to another, linking their
+				minds and allowing him to receive or transmit thoughts. When
+				stealth is essential, such silent communication is ideal.
+				Effect: The psyker chooses a person in range and line of sight who
+				opposes this power with a Willpower test. If the target fails, the
+				psyker can either read the person’s thoughts or send him a brief
+				mental message.
+				• Thought Reading: The psyker reads the target’s thoughts, with
+				the GM determining the nature of the information gained.
+				The more degrees of success scored on the Focus Power test,
+				the more information is gained overall. The higher the PR of
+				the power, the more secretive the information gained.
+				• Thought Sending: The psyker causes a message to appear in
+				the target’s mind as if he has just heard it spoken aloud. The
+				message can be no longer than 5 x PR seconds long.
+				If the target of this power is aware of what the psyker is trying
+				to do, he can voluntarily fail the opposed Willpower test, counting
+				as having rolled a 100.
+				]]>
+			</en>
+			<fr><![CDATA[Le psyker établit un lien psychique avec sa cible, lui permettant de
+			recevoir ou de transmettre des pensés.<br/>
+			Le psyker choisit une cible à portée et qu'il peut voir, qui doit faire un test opposé 
+			de force mentale pour résister au sort.<br/>
+			Si la cible rate son test, le psyker peut lire les pensés de la cible ou lui envoyer un message comme suit:<br/>
+			-Lire les pensés: Le psyker lit les pensés de la cible. Plus le nombre de degrés de succés est grand, plus il y aura depensés.<br/>
+			Plus le niveau psy est élevé, plus les pensés sont secrètes.<br/>
+			-Envoyer un message: le psyker envoit un message à la cible comme s'il lui avait parlé. Le message
+			ne doit pas être plus long que 5*niveau psy secondes.<br/>
+			Si la cible est consciente que le psyker va utiliser ce sort, elle peut chosir de rater le test automatiquement.	
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Térroriser(terrify)</nom> 
+		<discipline>Telepathie</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>sociablilité 45</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale opposé moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Turning an eldritch key, the psyker unlocks his target’s deepest
+				and strongest fears, exposing him to the worst recesses of his own
+				psyche. These nightmarish visions are enough to drive even the
+				strongest helplessly mad.
+				Effect: Slithering deep into the mind of his victim, the psyker
+				unearths their greatest failings, greatest weaknesses, and greatest
+				fears. Using these as tools against his opponent, the psyker can
+				turn even the most courageous warriors into pathetic, whimpering
+				cowards before him.
+				The psyker nominates a single target in range and line
+				of sight who opposes this power with a Willpower test.
+				If the target fails to resist the power, it must roll on Table
+				8–11: Shock on page 287, adding +10 times the psyker’s
+				psy rating to the roll in place of the normal addition for
+				degrees of failure, and immediately apply the effects.
+				]]>
+			</en>
+			<fr><![CDATA[Déverouillant un serrure, le psyker débloque lespeurs les plus profondes
+			de sa cible, l'exposant au pire recoin de sa psyché.<br/>
+			Ces visions cauchemardesque peuvent faire basculer dans la folie même les plus fort.<br/>
+			Le psyker choisit une cible à portée qu'il peut voir, qui doit faire un test opposé de force mentale.<br/>
+			Si la cible rate son test, elle doit faire immédiatement un jet sur la table des chocs p 287 DH V2, en 
+			ajoutant +10 * niveau psy au résultat, à la place de l'ajout des degrés d'echec.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Télépathie astrale(Astral Telepathy)</nom> 
+		<discipline>Astropathie</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Astropathe, Lien télépathique, force mentale 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé difficile -20</FocusPower> 
+		<Range>1000 kilomètres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Although the true practice of astrotelepathy involves long and
+				complex rituals unique to each Astropath, these psykers often
+				evince the ability to communicate telepathically at a distance unseen
+				amongst other telepaths. A practiced Astropath can communicate
+				with even non-psykers at orbital ranges.
+				Effect: The psyker chooses a person he is aware of within range
+				who resists the power with a Willpower test. This can be someone
+				the psyker has met personally, or someone he is aware of by
+				description. If the power succeeds, the psyker can transmit a brief
+				verbal message of no more than 5 seconds x psy rating.
+				If the target is aware of the psyker’s action, he may choose to
+				fail the Willpower test, counting as having rolled a 100.
+			]]>
+			</en>
+			<fr><![CDATA[L'astropathe peut communiquer  par télépathie, à des distance mille fois supérieure
+			à celle que peut atteindre un psyker, pouvant même atteindre des personnes en orbite.
+			L'astropathe choisit une cible qu'il connait et à portée, qui doit faire un test opposé 
+			de force mentale pour résister au sort.<br/>
+			Si la cible rate son test, l'astropathe envoit un message à la cible comme s'il lui avait parlé. Le message
+			ne doit pas être plus long que 5*niveau psy secondes.<br/>
+			Si la cible est consciente que l'astropathe va utiliser ce sort, elle peut chosir de rater le test automatiquement.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Chaîne télépathique(Telepathic Bond)</nom> 
+		<discipline>Astropathie</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Astropathe,Lien télépathique, sociabilité 35</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé moyen -10</FocusPower> 
+		<Range>20 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Some Astropaths hone their abilities to better communicate with
+				non-psykers. The ability to hold a silent telepathic conversation is
+				invaluable for the servants of an Inquisitor. Without betraying their
+				position or intentions, the psyker and his allies coordinate their
+				plans and achieve their mission.
+				Effect: The psyker establishes a telepathic bond with a number of
+				individuals up to half his psy rating, who resist the power with a
+				Willpower test. As long as the bond is held, the psyker and targets
+				can send and receive messages telepathically. This does not grant
+				full awareness of all of the characters’ thoughts, but allows each
+				character to choose what messages to send. All characters involved
+				in the bond receive all messages.
+				If a target is aware of the psyker’s action, he may choose to fail
+				the Willpower test, counting as having rolled a 100. If a character
+				moves out of range of the psyker, the power ceases to affect him.
+			]]>
+			</en>
+			<fr><![CDATA[La plupart des astropathes, affûtent leur abiletés pour mieux communiquer
+			avec les non psyker. <br/> L'habilité de tenir une conversation dans son esprit est inestimable pour les membre de l'inquisition.<br/>
+			L'Astropathe établit un chaîne avec un nombre de personne égale à la moitié de son niveau psy, qui peuvent résister
+			avec un test de force mentale opposé.<br/>
+			Tant que le sort est actif, l'astropathe et les cibles peuvent échanger des messages télépatiquement.
+			<br/>Toutes les pensés ne sont pas envoyées sans filtre, seul celle que la cible décide d'envoyer le sont.<br/>
+			Lorsqu'une personne envoit un message, toute les autres personnes le recoivent.
+			Si la cible est consciente que l'astropathe va utiliser ce sort, elle peut choisir de rater le test automatiquement.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Scan mental(Mind Scan)</nom> 
+		<discipline>Astropathie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Astropathe, chaîne télépathique, SOC 40, FM 50</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé difficile -20</FocusPower> 
+		<Range>1 metres * niveau psy</Range> 
+		<Maintenu>Action complète</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Exhibiting his full psychic potential, the Astropath strips back the
+					layers of his target’s psyche, exposing truths even unknown to the
+					victim. With each passing moment, more truths are revealed, until
+					the Astropath gains unfettered access to his target’s mind.
+					Effect: The psyker chooses a target within range and line of sight
+					who resists the power with a Willpower test. The target may
+					attempt to resist each round the power is sustained. If the target
+					wins, the psyker is repelled from his mind and gains no further
+					information. The information the psyker learns corresponds to the
+					number of rounds he successfully sustains the power:
+					• First Round: The psyker learns basic information, including
+					the target’s name, mood, and general state of health.
+					• Second Round: The psyker accesses the target’s surface
+					thoughts and learns his number of Insanity points and
+					number of Corruption points.
+					• Third Round: The psyker successfully gains access to the
+					target’s short-term memory and learns of any mental disorders.
+					• Fourth Round: The target’s subconscious is revealed.
+					• Fifth Round: The target’s mind is laid bare for the psyker to
+					plunder at will, from the target’s happiest memories to his
+					darkest secrets.]]>
+			</en>
+			<fr><![CDATA[
+			L'astropathe parvient à lire l’esprit de sa
+			cible et à sonder tous les secrets qu’il recèle.<br/>
+			Un Examen mental complet est un
+			procédé long, qui s’étend sur 5 rounds.<br/>
+			À chacun de ces rounds, la cible
+			effectut un test de Force Mentale opposé à celui du sort.<br/>
+			En cas de réussite du télépathe, celui-ci
+			pénètre un peu plus loin dans la psyché de
+			sa cible. Une réussite de la cible indique que
+			celle-ci parvient à chasser le psyker de son
+			esprit, et l’Examen mental prend fin.<br/>
+			À chaque tour où l’Examen mental se
+			poursuit, le psyker découvre les informations
+			suivantes :<br/><br/>
+			Round 1 (contact)
+			Informations : le psyker entre en jonction
+			avec l’esprit de la cible, apprend des
+			données basiques comme son nom, son
+			humeur, son état physique et autres informations
+			du genre.<br/><br/>
+			Round 2 (pensées superficielles)
+			Informations : le psyker explore les pensées
+			qui occupent les strates supérieures de
+			l’esprit du sujet, comme son opinion au
+			sujet du psyker, ses craintes immédiates,
+			ses mensonges conscients.<br/> Il découvre
+			un lieu, un objet, un événement ou une
+			personne qui compte pour la cible (un
+			être aimé, un endroit habité, un précieux
+			héritage, son initiation à un culte, etc.) ;
+			seules les émotions associées apparaissent,
+			pas la raison de cette importance.<br/> Il peut
+			également discerner le nombre de points
+			de Corruption et de folie du personnage.<br/><br/>
+			Round 3 (mémoire à court terme)
+			Informations : le psyker peut compulser
+			les souvenirs de la cible concernant
+			les 12 heures précédentes, et découvre
+			deux autres lieux, objets, événements
+			ou personnes d’importance. <br/>À nouveau,
+			la raison de cette importance n’est pas
+			manifeste, seules le sont les émotions
+			associées. <br/>Le psyker peut également
+			dénicher des mots de passe simples et
+			des habitudes routinières (exemple : le
+			code d’entrée d’un bloc d’habitation,
+			des chemins empruntés pour se rendre
+			au travail, des cryptogrammes d’identité
+			bancaire, ou des talents, compétences et
+			caractéristiques fréquemment utilisés).<br/><br/>
+			Round 4 (subconscient)
+			Informations : le psyker peut comprendre
+			dans le détail pourquoi les lieux, objets,
+			événements ou personnes déjà entrevus
+			sont importants pour la cible, et quels
+			liens les unissent les uns aux autres. <br/>Il
+			discerne les croyances, motivations et buts
+			personnels du sujet, ainsi que son réseau
+			de contacts immédiats.<br/> Des codes chiffrés
+			plus compliqués peuvent être soutirés à
+			l’esprit de la cible, et le psyker sait quels
+			furent les moments clés de sa vie à chaque
+			période (petite enfance, adolescence, âge
+			adulte, etc.).<br/><br/>
+			Round 5 (âme mise à nu)
+			Informations : le psyker peut puiser à
+			volonté dans l’esprit de la cible.<br/> Toute
+			information qui s’y trouve est à sa merci.
+			Un psyker peut tenter de procéder à un
+			Examen mental en secret ; il subit dans ce
+			cas un malus de –10 aux tests de Force
+			Mentale opposés. <br/>S’il parvient à effectuer
+			son Examen mental, la cible ressent un
+			étrange mal-être, mais n’est pas consciente
+			que son esprit est en train d’être sondé.
+			Si le psyker ne procède pas en secret, la
+			cible a pleinement conscience que sa psyché
+			subit une attaque mentale. 
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>	
+	<pouvoir>
+		<nom>Bouclier de pensé (Thought Shield)</nom> 
+		<discipline>Astropathie</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Astropathe, Forte tête </prerequis> 
+		<Action>Réaction</Action> 
+		<FocusPower>Test de force mentale opposé difficile -20</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType> Concentration</SousType>
+		<desc>
+			<en><![CDATA[Drawing on the strength of the Emperor Himself, the Astropath
+				summons a shield of Warp power, the better to protect his mind
+				and soul from psychic and daemonic attack. Many Astropaths
+				attribute such an ability to their strength of faith.
+				Effect: The psyker can choose to use this power when he is the
+				target of a rival psyker’s mind-influencing ability, a Daemon’s
+				attempt to possess him, or any creature’s attempt to subvert his
+				control of himself. If the power succeeds, the psyker successfully
+				shields his mind from the influence or possession attempt, which
+				immediately fails.
+			]]>
+			</en>
+			<fr><![CDATA[ Puisant dans la force psychique de l'empereur lui-même, l'astropathe
+			invoque un bouclier de force warp lui permettant de protéger son esprit contre les attaques psychique et les posséssion démoniaque.<br/>
+			L'astropathepeut choisir d'activer se pouvoir en tant que réaction, lorsqu'il est la cible
+			d'un pouvoir psy manipulant l'esprit, qu'un démon tente de le posséder ou tout autre atteinte au contrôle de son esprit.<br/>
+			Si le test reussit, le psyker reussit automatiquement à se couper de l'influence ou de la possession, 
+			qui rate automatiquement.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Bannissement(Banishment)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Niveau psy 3</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé difficile -20</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Speaking words of banishment, the psyker draws on his faith and
+				reaches out to sever the cords tying a Daemon to reality. Its hold
+				in realspace broken, the Daemon is cast back into the depths of
+				the Warp.
+				Effect: The psyker selects a target in range and line of sight, which
+				must possess the Warp Instability trait. The targeted Daemon must
+				immediately make a Willpower test, with a –5 penalty for each
+				degree of success on the Focus Power test. The target suffers 1
+				point of Energy damage per degree of failure on the test, ignoring
+				Toughness bonus and armour. If this would deal damage equal
+				to or in excess of the target’s remaining wounds, it is immediately
+				cast back into the Warp.
+			]]>
+			</en>
+			<fr><![CDATA[Recitant des prières de bannissement, le psykers puise dans sa foi et
+			fragilise les liens qui relie le demon au warp, renvoyant le demon dans son royaume.
+			<br/>Le psyker choisit une cible à portée qu'il voit et qui possède le trait Instabilité warp. <br/>
+			LE demon doit immédiatement faire un test de force mental, avec une pénalité de -5 
+			pour chaque degrés de reussite sur le test de concentration du sort.<br/>
+			La cible subit un point de dégat d'energie par degrés d'échec sur le test ignorant l'armure et l'endurance.<br/>
+			Si cela inflige un nombre de dégat supérieure à ses point de vie restant, le demon est automatiquement renvoyer dans le warp.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Flamme purificatrice(Cleansing Flame)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Niveau psy 4</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>5 mètres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker projects his purity in a great gout of holy flames. The
+					azure fires burn hotter than any mundane flame, blazing with the
+					righteousness of the Emperor. Heretics and Daemons cannot hope
+					to stand against the purifying flame.
+					When a character is set on fire by this power, the damage
+					he suffers from the flames counts as having the Sanctified quality.
+					Rng 5m x PR Dmg 1d10+PR+WPB (E) Pen 0
+					Special: Flame, Sanctified, Spray
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker projette sa pureté dans un grand déluge de flammes, reflétant
+				la toute puissance colère de l'empereur. Les mains du psyker deviennent 
+				l'équivalent d'un lance flamme.
+				Effet du sort:<br/>
+				- dégat: 1D10+niveau psy + Bonus FM<br/>
+				- type énergie<br/>
+				- pénétration: 0<br/>
+				- Attribut: Flamme, Sanctifié, Spray				
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Exorcisme(Exorcism)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>FM 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale opposé moyen -10</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Many psykers who follow the path of Daemonology know that the
+				best weapons against the Daemon are faith and psychic powers;
+				only with the energies of the Warp is it truly possible to fight
+				the Warp. Bolstering his ritual with psychic current, the psyker
+				prepares to exorcise a Daemon.
+				Effect: The psyker selects a single target character with the
+				Daemonic trait, which opposes the power with a Willpower test.
+				If the psyker wins the opposed test, the character suffers Willpower
+				damage equal to the user’s psy rating for each degree of success
+				on the psyker’s test.
+			]]>
+			</en>
+			<fr><![CDATA[Beaucoup de psykers qui choisissent de suivre la voie dela démologie savent
+			que la meilleur arme contre les demons est la foi et les pouvoir psychique.
+			<br/>En soutenant ses rituels avec des courants psychique, le psyker peut exorciser un démon.<br/>
+			Le psyker choisit une cible à portée qui possèdent le trait démoniaque, qui doit alors
+			faire un test opposé de force mentale.<br/>
+			Si la cible perd, elle subit des dégats de caracteristique sur sa force mentale égale au
+			niveau psy * le nombre de degrés de reussite.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Poing du juste(Hammerhand)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>300 xp</valeur>
+		<prerequis>Niveau psy 3</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>5 metres * niveau psy de rayon</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Imbuing his muscles with psychic force, the psyker brings down
+				the wrath of the Emperor of Mankind in powerful strikes that
+				shatter ceramite and plasteel.
+				Effect: The psyker selects a number of allies within range equal to
+				his psy rating (which may include the psyker). While the power
+				persists, the affected characters gain the Unnatural Strength (X)
+				trait where X is equal to the user’s psy rating, or increases their
+				existing trait’s value by 4. This benefit ends if a character moves
+				out of range.
+			]]>
+			</en>
+			<fr><![CDATA[Puisant dans sa force psychique, le psyker ramène la colère de l'empereur
+			de l'humanité dans les  bras de ses alliés et de lui même.<br/>
+			Le psyker choisit un nombre d'alliés égale à son niveau psy (qui peut inclure le psyker aussi).<br/>
+			Tant que le pouvoir est actif, les personnages gagne le trait force surnaturel (X) ou X est égale au niveau psy.
+			Si la cible possèdait déjà ce trait, elle l'augmente de 4.<br/>
+			Ce bonus se termine si le joueur sort de la zone d'effet.
+				
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Holocaust (Holocaust)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>500 xp</valeur>
+		<prerequis>Niveau psy 5</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale difficile -20</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Action complète</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker ignites his very soul in a devastating conflagration that
+				washes out from him in all directions. It is said that the flames of
+				this power burn not only flesh, but the very souls of the psyker’s
+				enemies, destroying them utterly—and that the psyker risks
+				consuming his own soul in the process.
+				Effect: Each round the psyker sustains Holocaust, he emits a
+				psychic blast centred on himself. He is not affected by the blast,
+				but each turn the psyker sustains the power he suffers 1d10+psy
+				rating Energy damage, ignoring armour and Toughness bonus.
+				Holoc aust Psychic Blast
+				Rng Self Dmg 1d10xPR (E) Pen 0
+				Special: Blast (PR), Flame, Warp Weapon
+			]]>
+			</en>
+			<fr><![CDATA[
+			Le psyker enflamme son âme dans une déflagration dévastatrice qui 
+			se répand dans toute les directions depuis son corps.<br/>
+			Il est dit que les flammes de ce sort ne brûle pas seulement 
+			les chairs mais aussi les âmes des ennemis du psyker et que l'âme de ce dernier
+			risque aussi d'être consummée.<br/>
+			Chaque round que le psyker maintient ce sort, il emet un blast psychique centré sur lui même.<br/>
+			Le psyker n'est pas affecté p)ar ce blast mais à chaque maintient de ce pouvoir,
+			il perd 1D10+ niveau psy de dégat d'énergie, ignorant l'armure et l'endurance.<br/>
+			Holocaust Blast:<br/>
+				- dégat: 1D10*niveau psy<br/>
+				- type: énergie<br/>
+				- pénétration: 0<br/>
+				- Attribut: Flamme, Blast(Niveau psy), Arme Warp			
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Communion psychique(Psychic Communion)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>Perception 35</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>10 metres * niveau psy de rayon</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Establishing a psychic link with his allies, the psyker ensures that
+				they act in concert, the better to deliver righteous judgement on
+				the Emperor’s foes.
+				Effect: The psyker selects a number of allies up to psy rating
+				within range. While the power persists, the psyker and his
+				affected allies add +2 to their Initiative. This can change
+				an already established Initiative order.
+			]]>
+			</en>
+			<fr><![CDATA[Etablissant un lien psychique avec ses alliés, le psyker s'assurent qu'ils
+			agissent tous de concert, afin de chatier les ennemis de l'empereur.<br/>
+			Chaque personne permet au psyker d'avoir une vue differente lui permettant de gérer tous 
+			les dangers vue par chaque personne.
+			Le psyker choisit un nombre d'alliés à porté, égale à son niveau psy.<br/>
+			Tant que le sort est actif, le psyker et ses alliés gagne un bonus (+2* nombre de personne), à l'initiative.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Purge de l'âme(Purge Soul)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Force mentale 35</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale opposé moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Using the corruption in his target’s soul as kindling,
+				the psyker ignites an inner fire, burning away the
+				target’s tainted soul.
+				Effect: The psyker chooses a target within range
+				and line of sight, who opposes the power with a
+				Willpower test. If the psyker wins the Opposed
+				test, the target suffers 1 point of Energy damage
+				per degree of success on the test, plus an amount
+				equal to the target’s Corruption bonus, ignoring
+				armour and Toughness bonus.
+			]]>
+			</en>
+			<fr><![CDATA[Utilisant la corruption de l'âme de sa cible comme du petit bois,
+			Le psyker embrase l'âme souillée de son ennemi.<br/>
+			Le psyker choisit une cible à porté qu'il peut voir, qui doit faire un test opposé de force mentale.<br/>
+			Si le psyker gagne son test opposé, la cible subit un point de dégats d'énergie par degré de reussite plus
+			le bonus de corruption de la cible, ignorant l'armure et l'endurance.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Sanctuaire(Sanctuary)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>400 xp</valeur>
+		<prerequis>Force mentale 45</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>10 mètres * niveau psy</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker summons a barrier of holy force, pushing back the
+Daemon 			and deflecting the blows of heretics.
+				Effect: The psyker selects a number of allies up to psy rating
+				(which may include the psyker) within 10 metres x psy rating.
+				For the duration of the power, each affected character benefits
+				from a force field with a protection rating of 5 x PR and no
+				overload chance. In addition, Daemons must pass a Challenging
+				(+0) Willpower test in order to move toward an affected character.
+
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker invoque une barrier  sacré, repoussant les démons et 
+				déviant les tirs des hérétiques, faisant légérement brillé de la lumière sacré de l'empereur les
+				cibles de ce sort.<br/>
+				Le psyker choisit un nombre d'alliés égale à son niveau psy 
+				(qui peut inclure le psyker),
+				étant à porté. <br/>
+				Les personnes affectés béneficis d'un champ de force ayant un seuil de 
+				protection égale à 5* niveau psy , qui ne surcharge pas.<br/>
+				De plus, les démons doivent passer un test de force mentale pour avancer vers une personne 
+				étant sous influence du sort.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Voix de l'empereur(Word of the Emperor)</nom> 
+		<discipline>Sanctic Daemonology</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>Sociabilité 30</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>10 metres * niveau psy</Range> 
+		<Maintenu>Demi action</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker speaks with the very voice of the Emperor, causing his
+					enemies to cringe in pain and terror. Bolstering his denunciations
+					and catechisms of hate with psychic resonance, the psyker ensures
+					that heretics and Daemons must struggle past his holy words in
+					order to lay hand or claw upon him.
+					Effect: Whilst the power remains in effect, whenever a character
+					within range takes an Attack action targeting the psyker, the attacker
+					must pass a Challenging (+0) Willpower test or suffer a –5 penalty
+					to his attack roll for each degree
+					of failure.
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker parle avec la voix de l'empereur, faisant grimacer de
+			douleur et terrorisant ses ennemis. <br/>
+			Le psyker gagne le trait peur (Niveau psy) contre les hérétiques à porté.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Terre maudite(Cursed Earth)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>FM 40</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>1 metres * niveau psy</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType> Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker calls forth crackling tendrils of dark energy to imbue
+				an area of ground with the power of the Warp. This area of cursed
+				earth helps Daemons sustain their grip in reality, weakening
+				the veil between realspace and the Warp. Those who step on
+				the cursed ground feel revulsion and terror, recoiling from the
+				unnatural presence.
+				Effect: The psyker selects an area of ground with a radius in
+				metres equal to psy rating. While the power is sustained, Daemons
+				standing within this area increase the value of their Daemonic
+				trait by half psy rating and receive a bonus of +5 x psy rating to
+				Warp Instability tests. In addition, psychic powers used within
+				the affected area add +10 to Focus Power tests and rolls on Table
+				6–2: Psychic Phenomena (see page 196 of the Dark Heresy
+				Core Rulebook). Those in the presence of the Cursed Earth may
+				experience disturbing Warp phenomena at the GM’s discretion
+				(see Table 3–2: Warp Phenomena on page 137).
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker en appel au feu crépitant d'une énergie noire pour
+				impregner le sol du pouvoir du warp. <br/>Cette zone de terre maudite aide les 
+				démons à se maintenir dans la réalité en affaiblissant le voile entre 
+				le warp et la réalité.<br/>
+				Ceux qui foulent cette zone ressentent une révulsion et une peur primaire.<br/>
+				Le psyker choisit une zone à porté avec un rayon égale au niveau psy.<br/>
+				Tant que le sort est maintenu, les démons se trouvant dans cette zone, augmentent
+				la valeur de leur trait démonique de la moitié du niveau psy et recoivent un bonus de 
+				+5* niveau psy à leur test d'instabilité warp.<br/>
+				De plus tout les test de pouvoir psychique recoivent un bonus de +10 au test de concentration
+				et doivent faire un jet sur la table 6–2: Psychic Phenomena (p 196 DH V2).<br/>
+				Les personnes se trouvant dans la zone maudite peuvent faire l'experience de phénomène warp
+				(voir Table 3–2: Warp Phenomena p137 ennemies beyond).			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Flamme noire(Dark Flame)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>10 points de corruption</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[Drawing on his own corruption, the psyker projects a gout of dark
+				Warp-fire. The unnatural flames burn with the fires of the psyker’s
+				own damnation, consuming the souls of his enemies as surely as
+				their bodies.
+				Da r k Fl ame Psychic Bolt
+				Rng 5m x PR Dmg 1d10+PR+CB (E) Pen CB
+				Special: Flame, Spray
+
+			]]>
+			</en>
+			<fr><![CDATA[Puisant dans sa propre corruptionn le psyker projette
+			des flammes noires du warp. <br/>Les flammes surnaturelles puisent dans la propre damnation
+			du psyker, consumant l'âme de ses ennemis aussi bien que la chair.<br/>
+			Flamme noire:<br/>
+				- dégat: 1D10+niveau psy+bonus de corruption<br/>
+				- type: énergie<br/>
+				- pénétration: bonus de corruption<br/>
+				- Attribut: Flamme, Spray		
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Regard infernal(Infernal Gaze)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis>15 point de corruption, FM 45</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>5 metres * niveau psy</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Attaque, Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker opens his soul to the Warp, his eyes reflecting a dark
+					vision of the Realm of Chaos. Those who witness this sight are
+					seared to the very soul.
+					Effect: This power affects all characters within range and line of
+					sight, friend and foe, who do not possess the Daemonic trait. Each
+					affected character opposes the power with a Challenging (+0)
+					Willpower test. Any character who fails suffers Energy damage
+					equal to the user’s psy rating plus Corruption bonus, ignoring
+					armour and Toughness bonus, and gains Insanity points and
+					Corruption points equal to half the user’s psy rating.
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker ouvre son âme au warp, ses yeux refletent la noirceur du royaume
+			du chaos. Ceux qui croisent ce regard sont saisi au plus profond de leur âme.
+			Ce sort affecte tous les personnages qui sont à portée et que le psyker peut voir,
+			amis et ennemis, qui ne possèdent pas le trait démoniaque.<br/>
+			Chaque personne doit faire un test opposé de force mentale.<br/>
+			Ceux qui échouent, subissent un nombre de dégat égale au niveau psy plus 
+			le bonus de corruption du psyker, ignorant armure et endurance.<br/>
+			De plus, les victimes gagne un nombre de points  de folie et de corruption égale à la
+			moitié du niveau psy.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Incursion(Incursion)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>FM 45</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Not content with merely summoning Daemons forth into reality,
+				the psyker bends his unnatural powers toward the cowing of these
+				unholy entities. Channelling the stuff of the Warp from which they
+				are made, the psyker binds Daemons to his will.
+				Effect: As long as this power remains in effect, the psyker gains
+				a bonus to his Daemonic Mastery tests (see page 59) of +10 x
+				psy rating.
+			]]>
+			</en>
+			<fr><![CDATA[Le psyker utilise ses sombres pouvoirs pour faire plier la volonté des entités démoniaque.<br/>
+			Tant que ce pouvoir est actif, le psyker gagne un bonus à ses tests de maitrise démoniqaue égale à
+			10 * niveau psy.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Possession(Possession)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>200 xp</valeur>
+		<prerequis></prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale moyen -10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[For most psykers, the possibility of a Daemon of the Warp
+				possessing their body is their greatest fear, a fear that they must
+				contend with each time they use their unnatural powers. For some,
+				however, it is merely another path to power. Confident in his
+				own strength of will, the psyker allows a minor Warp beast to
+				temporarily enter his flesh, imbuing him with unholy resilience
+				and strength.
+				Effect: While the power is sustained, the psyker gains the Daemonic
+				(X) and Unnatural Strength (X) traits, where X equals half his psy
+				rating, as well as the Deadly Natural Weapons trait. In addition,
+				the psyker must succeed at a Challenging (+0) Willpower test each
+				round the power is sustained or enter a Frenzied state per the
+				Frenzy talent (see page 127 of the Dark Heresy Core Rulebook).
+				While Frenzied, the psyker must continue to sustain the power (in
+				a special exception to the prohibition on using psychic powers
+				while Frenzied).
+				Psychic Phenomena: A result of Psychic Phenomena when using
+				this power means that a more powerful Daemon, as chosen by the
+				GM, has taken the psyker’s invitation. The psyker must succeed
+				in an Opposed Willpower test against the Daemon or become
+				possessed (see page 69).
+			]]>
+			</en>
+			<fr><![CDATA[Pour la plupart des psykers, la possibilité d'être possédé par un demon est une de leur plus grande peur.<br/>
+			Pour d'autre c'est juste un moyen d'acquerir plus de pouvoir.<br/>
+			Confiant dans leur force mentale, ce genre d epsyker autorise des créature du warp à entrer temporairement dans leur chair.<br/>
+			Tant que le pouvoir est maintenu, le psyker gagne le trait démoniqaue (X), ou X est égale à la moitié
+			de son niveau psy, et aussi le traitarme naturelle mortelle.<br/>
+			De plus le psyker doit reussir un test de force mentale pour chaque roud ou le pouvoir est maintenu, ou se voir entrer en 
+			frénésie (page 127 DH V2).<br/>
+			Tant qu'il est en frénésie, le psyker est obligé de maintenir ce sort, ce qui est l'exception à la règle des sorts en frénésie.<br/><br/>
+			Si un phénomène psychique se produit, cela veut dire qu'un démon plus puissant que prévue a répondu à l'appel.<br/>
+			Le psyker doit reussir un test opposé contre le démon ou devenir possédé (voir page 69 ennemy beyond).
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Sacrifice(Sacrifice)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>100 xp</valeur>
+		<prerequis>FM 45</prerequis> 
+		<Action>Demi action</Action> 
+		<FocusPower>Test de force mentale facile +10</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Non</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[The psyker uses the flesh and blood of a willing or unwilling victim
+				to fuel his dark powers. Whether ending a life or merely opening
+				a vein, the sacrifice calls out to the Warp, drawing the attentions of
+				Daemons and bolstering the psyker’s malevolent abilities
+				This power can only be used if the psyker has inflicted
+				damage on a target (possibly himself) since the beginning of the
+				previous round. If the Focus Power test succeeds, the psyker gains
+				a +5 bonus to his next Focus Power test for each point of damage
+				inflicted (after reductions for armour and Toughness bonus) with
+				the preceding attack. This bonus must be used within 1 hour.]]>
+			</en>
+			<fr><![CDATA[Le psyker utilise la chair et le sang d'une persone consentante ou pas
+				pour alimenter ses noirs pouvoirs.<br/>
+				Que ce soit en prenant une vie ou en ouvrant les veines, le sacrifice appel le warp,
+				attirant les demons et renforcant les pouvoirs du psyker.<br/>
+				Ce pouvoir ne peut être utilisé que si le psyker a infligé des dégats 
+				à une victime (possiblement lui même) le tour précédent.<br/>
+				Si le test de concentration reussit, le psyker gagne un bonus de +5 à son prochain
+				test de concentration, pour chauqe point de dégats infligés (aprés reduction 
+				de l'armure et de l'endurance) de la précédente attaque.<br/>
+				Ce bonus peut être utilisé dans la limite d'une heure.
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>
+	<pouvoir>
+		<nom>Invocation(Summoning)</nom> 
+		<discipline>Malefic Daemonology</discipline> 
+		<valeur>050 xp</valeur>
+		<prerequis>FM 35</prerequis> 
+		<Action>Action complète</Action> 
+		<FocusPower>Test de force mentale normal +0</FocusPower> 
+		<Range>le psyker</Range> 
+		<Maintenu>Action gratuite</Maintenu> 
+		<SousType>Concentration</SousType>
+		<desc>
+			<en><![CDATA[Drawing on his Warp-born powers, the psyker weakens the veil
+				twixt reality and the Immaterium, paving the way to summon
+				forth its unholy denizens.
+				Effect: As long as this power is sustained, the psyker gains a bonus
+				of +10 x psy rating to Forbidden Lore (Daemonology) tests made
+				to summon Daemons.
+			]]>
+			</en>
+			<fr><![CDATA[Puisant dans ses pouvoirs démoniqaue, le psyker affaiblit le voile
+			entre la réalité et l'Immaterium.
+			Tant que ce pouvoir est maintenu, le psyker gagne un bonus de +10*niveau psy à ses tests de 
+			compétences Connaissance interdite (Démonology), réalisép our invoquer des démons. 
+			]]>
+			</fr>			
+		</desc>
+	</pouvoir>	
+</pouvoirsPsy>
