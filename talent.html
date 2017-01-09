@@ -1,0 +1,70 @@
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<title>Whiplash450's Dark Heresy 2.0 Character Creator</title>
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/t/bs-3.3.6/jq-2.2.0,dt-1.10.11,r-2.0.2/datatables.min.css"/> 
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.11/css/dataTables.bootstrap.min.css"/> 
+		<script src="./dh_files/jquery-2.1.1.min.js"></script>
+		<script src="./dh_files/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/t/bs-3.3.6/jq-2.2.0,dt-1.10.11,r-2.0.2/datatables.min.js"></script>
+		<script type="text/javascript" src="./dh_files/jquery.dataTables.columnFilter.js"></script>		
+		<script src="./dh_files/functions.js"></script>
+		<script src="./dh_files/talent_array.js"></script>
+	</head>
+	<body>
+	<nav class="navbar navbar-default">
+	  <ul class="nav nav-tabs">
+		  <li role="presentation" ><a href="dh.html">Générateur de personnage</a></li>
+		  <li role="presentation" class="active"><a href="talent.html">Liste des talents</a></li>
+		  <li role="presentation" ><a href="competence.html">Liste des compétences</a></li>
+		  <li role="presentation" ><a href="attribut_arme.html">Liste des attribut des armes</a></li>
+		  <li role="presentation" ><a href="pouvoirs_psy.html" >Liste des pouvoirs psy</a></li>
+		</ul>
+	</nav>
+	
+		<table id="talentTab" class="table table-striped table-bordered dataTable" cellspacing="5">
+			 <thead>
+				<tr>
+					<th>nom</th>
+					<th>Tier</th>
+					<th>Prerequis</th>
+					<th>Aptitude</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>nom</th>
+					<th>Tier</th>
+					<th>Prerequis</th>
+					<th>Aptitude</th>
+					<th>Description</th>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+	<script>
+    $( document ).ready(function() {
+		for(var i=0; i<talents_tier1_Array.length; i++)
+		{
+			$('#talentTab > tbody').append('<tr><td>'+talents_tier1_Array[i][0]+'</td><td>'+talents_tier1_Array[i][1]+'</td><td>'+talents_tier1_Array[i][2]+'</td><td>'+returnAptitudeText(talents_tier1_Array[i][3][0])+'</br>'+returnAptitudeText(talents_tier1_Array[i][3][1])+'</td><td>'+talents_tier1_Array[i][5]+'</td></tr>');
+		}
+		$('#talentTab').dataTable().columnFilter();
+        $('[value="Tier"]').css( "width", "60px" );
+		 $('[value="Prerequis"]').css( "width", "100%" );
+		 $('[value="Aptitude"]').css( "width", "100%" );
+		 $('[value="nom"]').css( "width", "100%" );
+		 $('[value="Description"]').css( "width", "100%" );
+		
+    });
+    </script>
+</html>
