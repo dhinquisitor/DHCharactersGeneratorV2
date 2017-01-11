@@ -21,3 +21,7 @@ Still working:
 New BUG:
 
 -Conflict between language
+
+
+How to launch the website:
+Download pages, folder and launch dh.html
