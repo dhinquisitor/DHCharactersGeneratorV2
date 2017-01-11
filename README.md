@@ -2,20 +2,22 @@ Tribute to http://heresycreator.96.lt/
 
 New features:
 
-Talent
+-Talent
 
-character save
+-character save
 
-New page : list of talents
+-New page : list of talents
 
-New page: list of skills
+-New page: list of skills
 
-New page: List of psychic power
+-New page: List of psychic power
+
 
 Still working:
 
-Multi-language
+-Multi-language
+
 
 New BUG:
 
-Conflict between language
+-Conflict between language
